@@ -1,0 +1,319 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Project: twotter
+    Created on : Sep 6, 2017, 8:59:07 AM
+    Author     : jordan
+*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.notVisible{
+    display: none;
+}
+
+.isVisible{
+    display: inline;
+    color: red;
+    font: Tahoma, 6;
+}
+
+.isVisibleAsterisk{
+    display: inline;
+    color: red;
+}
+
+.centered{
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 0;
+}
+
+.errorAsterisk{
+    display: inline;
+    background: yellow;
+}
+
+.twitForm{
+    position:centered;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#dancingFont{
+    font-family: 'Dancing Script', cursive; 
+    color: #e60000;
+}
+
+#signUpForm{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #e60000;
+    border-radius: 10px;
+    background-position: 10px 10px;
+    padding: 5px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -110px;
+
+}
+
+#signUpForm h1{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+}
+
+
+#homePage h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+    text-align: center;
+}
+
+#userInfo{
+    border: 2px solid #e60000;
+    border-radius: 10px;
+    background-position: 10px 10px;
+    padding: 5px;
+    position: fixed;
+    top:10px;
+    left:10px;
+    margin-top: 5px;
+    margin-bottom:2px;
+}
+
+#userInfo h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+    text-align:left;
+    margin:auto;
+    /*margin-top: 50px;*/
+    padding:0;    
+}
+
+#userInfo body {
+    /*width: 100%;*/
+    /*height: 190%;*/
+    margin: 0;
+    padding: 0;
+}
+
+#whoToFollow{
+    border: 2px solid #e60000;
+    border-radius: 10px;
+    background-position: 10px 10px;
+    padding: 5px;
+    position: fixed;
+    top:10px;
+    right:10px;
+    margin-top: 5px;
+    margin-bottom:2px;
+    display: block;
+}
+
+#whoToFollow h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+    text-align:left;
+    margin:auto;
+    /*margin-top: 50px;*/
+    padding:0;    
+    display:block;
+}
+
+#whoToFollow body {
+    /*width: 100%;*/
+    /*height: 190%;*/
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+
+
+
+#trends{
+    border: 2px solid #e60000;
+    border-radius: 10px;
+    background-position: 10px 10px;
+    padding: 5px;
+    position: fixed;
+    top:10px;
+    left:10px;
+    margin-top: 120px;
+    margin-bottom:2px;
+}
+
+
+#twits table{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    display:inline-block;           
+    border-right:1px solid #e60000;
+    border-bottom:1px solid #e60000;
+    border-left:1px solid #e60000;
+}
+
+#trends a{
+    font-family: 'Dancing Script', cursive; 
+}
+
+#trends h1,h2,h3,h4,h5,h6{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+    text-align:left;
+    margin:auto;
+    /*margin-top: 50px;*/
+    padding:0;    
+}
+
+#trends body {
+    /*width: 100%;*/
+    /*height: 190%;*/
+    margin: 0;
+    padding: 0;
+}
+
+#allTwits{
+    font-family: 'Dancing Script', cursive;
+    color: #e60000;
+    text-align: center;
+}
+
+
+#allTwits h1,h2,h3,h4,h5,h6{
+    align: center;
+    text-align:center;
+    white-space: pre;
+    margin-left: auto; 
+    margin-right: auto;
+    /*height: 90%;*/ 
+    /*text-align:center;*/ 
+    /*display:table;*/
+    /*width:100%;*/
+}
+
+#allTwits table{
+    margin: 0 auto;
+}
+
+#allTwits button{
+    
+}
+
+#allTwits tr{
+    position:centered;
+}
+
+#allTwits td{
+    text-align:left;
+}
+
+form{
+    display: table;
+    width: 200px;
+}
+
+label{
+    display: inline;
+    clear: left;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input {
+  display: inline-block;
+  float: center;
+  font: Tahoma, 10;
+  background: white;
+  width: 100;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#e60000;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#twitBox{
+    position: centered;
+}
+
+
+
+.twitButton {
+    position: centered;
+    margin: auto;
+    /*padding:5px 15px;*/ 
+    background:#e60000;
+    border:0 none;
+    cursor:pointer;
+    /*-webkit-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    color: white;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.delButton{
+    padding-right: 8px;
+    padding-bottom: 4px;
+    margin:0 auto;
+    background:#e60000;
+    color: white;
+    display: block; 
+    height: 18px;
+    font-size:9px;
+    width: 50px;
+    text-align: centered;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+    background-image: url('../images/crystalbg.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: white;
+}
+
+textarea{
+    width:300px; 
+    height:45px; 
+    background-color: #A12A1E; 
+    color:White; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+footer {
+  position: fixed;
+  margin-top: 15px;
+  width: 800px;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;
+}
+
+.footerImg{
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    width: 350px; 
+    height: auto;
+}
