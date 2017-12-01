@@ -3,7 +3,9 @@ Mini-Twitter Clone. Java Web Application.
 
 Included is the Netbeans project.
 
-Requires: Apache Tomcat Server + MySQL server / MySQLWorkbench. For full functionality, add your MySQL username and password to MyTwitter/web/META-INF/context.xml and replace your gmail username and password on line 70 in MyTwitter/src/java/dataaccess/MailUtilGmail.java
+Requires: Apache Tomcat Server + MySQL server / MySQLWorkbench. 
+
+For full functionality, add your MySQL username and password to MyTwitter/web/META-INF/context.xml and replace your gmail username and password on line 70 in MyTwitter/src/java/dataaccess/MailUtilGmail.java
 
 Features:
 * Sign In, remember me
