@@ -23,22 +23,22 @@ Features:
 * All passwords stored are salted and hashed for internal security.
 
 ## Login Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/loginPage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/loginPage.png)
 
 ## Home Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/homePage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/homePage.png)
 
 ## Notifications Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/notificationsPage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/notificationsPage.png)
 
 ## Hashtag Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/hashtagPage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/hashtagPage.png)
 
 ## Sign Up Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/signupPage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/signupPage.png)
 
 ## Edit Profile Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/editprofilePage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/editprofilePage.png)
 
 ## Forgot Password Page
-![Settings Window](https://raw.github.com/jtstein/twotter/master/forgotPasswordPage.png)
+![Settings Window](https://raw.github.com/jtstein/MiniTwitter/master/forgotPasswordPage.png)
